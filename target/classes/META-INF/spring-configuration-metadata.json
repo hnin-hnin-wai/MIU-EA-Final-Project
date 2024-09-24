@@ -1,0 +1,152 @@
+{
+  "groups": [
+    {
+      "name": "common",
+      "type": "edu.miu.common.config.properties.CommonProperties",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties"
+    },
+    {
+      "name": "common.feign-oauth",
+      "type": "edu.miu.common.config.properties.CommonProperties$FeignOAuthProperties",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties"
+    },
+    {
+      "name": "common.mvc",
+      "type": "edu.miu.common.config.properties.CommonProperties$MvcProperties",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties"
+    },
+    {
+      "name": "common.security",
+      "type": "edu.miu.common.config.properties.CommonProperties$SecurityProperties",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties"
+    },
+    {
+      "name": "common.security.api",
+      "type": "edu.miu.common.config.properties.CommonProperties$SecurityProperties$EndPointProperties",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties$SecurityProperties"
+    },
+    {
+      "name": "common.security.hmi",
+      "type": "edu.miu.common.config.properties.CommonProperties$SecurityProperties$EndPointProperties",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties$SecurityProperties"
+    },
+    {
+      "name": "common.server",
+      "type": "edu.miu.common.config.properties.CommonProperties$ServerProperties",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties"
+    },
+    {
+      "name": "common.sync",
+      "type": "edu.miu.common.config.properties.CommonProperties$SyncProperties",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties"
+    },
+    {
+      "name": "common.sync.schedule",
+      "type": "edu.miu.common.config.properties.CommonProperties$SyncProperties$ScheduleProperties",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties$SyncProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "common.feign-oauth.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties$FeignOAuthProperties"
+    },
+    {
+      "name": "common.mvc.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties$MvcProperties"
+    },
+    {
+      "name": "common.security.api.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties$SecurityProperties$EndPointProperties"
+    },
+    {
+      "name": "common.security.api.path-prefix",
+      "type": "java.lang.String",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties$SecurityProperties$EndPointProperties"
+    },
+    {
+      "name": "common.security.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties$SecurityProperties"
+    },
+    {
+      "name": "common.security.hmi.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties$SecurityProperties$EndPointProperties"
+    },
+    {
+      "name": "common.security.hmi.path-prefix",
+      "type": "java.lang.String",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties$SecurityProperties$EndPointProperties"
+    },
+    {
+      "name": "common.server.http-port",
+      "type": "java.lang.Integer",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties$ServerProperties"
+    },
+    {
+      "name": "common.sync.bootstrap",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties$SyncProperties"
+    },
+    {
+      "name": "common.sync.master-switch-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties$SyncProperties"
+    },
+    {
+      "name": "common.sync.schedule.daily",
+      "type": "java.lang.String",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties$SyncProperties$ScheduleProperties"
+    },
+    {
+      "name": "common.sync.schedule.fifteen-minutely",
+      "type": "java.lang.String",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties$SyncProperties$ScheduleProperties"
+    },
+    {
+      "name": "common.sync.schedule.hex-daily",
+      "type": "java.lang.String",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties$SyncProperties$ScheduleProperties"
+    },
+    {
+      "name": "common.sync.schedule.hourly",
+      "type": "java.lang.String",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties$SyncProperties$ScheduleProperties"
+    },
+    {
+      "name": "common.sync.schedule.minutely",
+      "type": "java.lang.String",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties$SyncProperties$ScheduleProperties"
+    },
+    {
+      "name": "common.sync.schedule.monthly",
+      "type": "java.lang.String",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties$SyncProperties$ScheduleProperties"
+    },
+    {
+      "name": "common.sync.schedule.outage-end",
+      "type": "java.lang.String",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties$SyncProperties$ScheduleProperties"
+    },
+    {
+      "name": "common.sync.schedule.outage-start",
+      "type": "java.lang.String",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties$SyncProperties$ScheduleProperties"
+    },
+    {
+      "name": "common.sync.schedule.twice-daily",
+      "type": "java.lang.String",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties$SyncProperties$ScheduleProperties"
+    },
+    {
+      "name": "common.sync.schedule.weekly",
+      "type": "java.lang.String",
+      "sourceType": "edu.miu.common.config.properties.CommonProperties$SyncProperties$ScheduleProperties"
+    }
+  ],
+  "hints": []
+}

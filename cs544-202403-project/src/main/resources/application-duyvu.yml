@@ -1,0 +1,24 @@
+#spring:
+#  activemq:
+#    broker-url: http://57.151.89.65:61616
+#    user: artemis
+#    password: artemis
+#  datasource:
+#
+#    url: jdbc:sqlserver://cs544group3.database.windows.net:1433;databaseName=hnin;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+#    username: admingroup3
+#    password: cS544Group3
+#    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+#    hikari:
+#      maximumPoolSize: 10
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#      naming:
+#        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+#        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.SQLServerDialect
+#    generate-ddl: true

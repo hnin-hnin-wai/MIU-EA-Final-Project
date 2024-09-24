@@ -1,0 +1,91 @@
+common:
+  security:
+    enabled: false
+  feign-oauth:
+    enabled: false
+  mvc:
+    enabled: false
+server:
+  ssl:
+    enabled: false
+  servlet:
+    context-path: /badge-system
+spring:
+  activemq:
+    user: artemis
+    password: artemis
+  security:
+    user:
+      name: user
+      password: 123
+  application:
+    name: cs544-202403-project
+  datasource:
+    url: jdbc:mysql://localhost:3306/project?useSSL=false&serverTimezone=UTC&allowPublicRetrieval=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximumPoolSize: 10
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    generate-ddl: true
+logging:
+  level:
+    root: INFO
+  file:
+    name: /CS544/Logging/${spring.application.name}/logs
+#common:
+#  security:
+#    enabled: false
+#  feign-oauth:
+#    enabled: false
+#  mvc:
+#    enabled: false
+#server:
+#  ssl:
+#    enabled: false
+#  servlet:
+#    context-path: /badge-system
+#spring:
+#  activemq:
+#    user: artemis
+#    password: artemis
+#  security:
+#    user:
+#      name: user
+#      password: 123
+#  application:
+#    name: cs544-202403-project
+#  datasource:
+#    url: jdbc:sqlserver://localhost:1434;databaseName=group3;trustServerCertificate=true
+#    username: sa
+#    password: domain
+#    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+#    hikari:
+#      maximumPoolSize: 10
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: create
+#      naming:
+#        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+#        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.SQLServerDialect
+##        dialect: org.hibernate.dialect.MySQL8Dialect
+#    generate-ddl: true
+#logging:
+#  level:
+#    root: INFO
+#  file:
+#    name: /CS544/Logging/${spring.application.name}/logs
