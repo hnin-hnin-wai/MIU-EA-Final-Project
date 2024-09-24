@@ -11,13 +11,13 @@ server:
   servlet:
     context-path:
 spring:
-  security:
-    oauth2:
-      client:
-        registration:
-          google:
-            client-id: 858466407850-jj0pj96ipsnl8gfmc9c262p4ecb31csm.apps.googleusercontent.com
-            client-secret: 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
+  # security:
+  #  oauth2:
+  #    client:
+  #       registration:
+  #         google:
+  #           client-id: 858466407850-jj0pj96ipsnl8gfmc9c262p4ecb31csm.apps.googleusercontent.com
+  #            client-secret: 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
 #    user:
 #      name: user
 #      password: 123
