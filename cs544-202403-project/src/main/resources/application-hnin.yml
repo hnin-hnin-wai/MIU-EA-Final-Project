@@ -11,12 +11,8 @@ server:
   servlet:
     context-path:
 spring:
-  # security:
-  #  oauth2:
-  #    client:
-  #       registration:
-  #         google:
- 
+
+
 #    user:
 #      name: user
 #      password: 123

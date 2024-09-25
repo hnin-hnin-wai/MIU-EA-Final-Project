@@ -23,12 +23,12 @@ public class WebSecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http)
             throws Exception {
         http.csrf(AbstractHttpConfigurer::disable)
-                .authorizeHttpRequests(requests -> requests
-                     //   .requestMatchers("/welcome").permitAll()
+               // .authorizeHttpRequests(requests -> requests
+                        .requestMatchers("/welcome").permitAll()
                         .anyRequest().authenticated()
                 )
                //.httpBasic(Customizer.withDefaults());
-               .oauth2Login(Customizer.withDefaults());
+              // .oauth2Login(Customizer.withDefaults());
         return http.build();
     }
 }
